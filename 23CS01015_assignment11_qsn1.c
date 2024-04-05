@@ -4,7 +4,7 @@ struct stack
 {
     int size;
     int top;
-    char arr[10];
+    char arr[100];
 };
 int isEmpty(struct stack *ptr)
 {
